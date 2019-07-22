@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+  </head>
+  <body>
+    <script type="text/javascript">
+      var input=Number(prompt("Input 1 untuk luas persegi panjang \n input 2 untuk menghitung lingkaran \n input 3 untuk menghitung segitiga siku siku"));
+
+      if (input == 1)
+      {
+        var sisi1=Number(prompt("masukkan sisi 1"));
+        var sisi2=Number(prompt("masukkan sisi 2"));
+        var hasil = sisi1 * sisi2;
+        alert("Luas persegi panjang= " +hasil)
+}
+        else if (input ==2)
+        {
+          var jari=Number(prompt("masukkan Jari"));
+          var hasil = 22/7 * jari-jari;
+          alert(prompt("luas lingkaran=" +hasil));
+        }
+        else if(input == 3)
+        {
+          var alas=Number(prompt("masukkan alas"));
+          var tinggi=Number(prompt("masukkan tinggi"));
+          var hasil = alas * tinggi;
+          alert(prompt("Luas segitiga siku-siku"+hasil));
+        }
+        else
+        {
+          alert("tidak teridentifikasi");
+        }
+    </script>
+  </body>
+</html>
